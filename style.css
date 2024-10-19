@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .header-container {
   display: flex;
   justify-content: center;
@@ -22,8 +18,8 @@ body {
 }
 
 .logo {
-  margin-left: 5px;
-  margin-top: 5px;
+  margin-left: 25px;
+  margin-top: 15px;
 }
 .header-links {
   width: 250px;
@@ -31,6 +27,7 @@ body {
   justify-content: space-evenly;
   font-size: 15px;
   align-items: center;
+  font-weight: 700;
 }
 
 .header-link-one,
@@ -43,7 +40,7 @@ body {
   display: flex;
   justify-content: center;
   background-color: #ffc2ff;
-  padding: 20px 0px 30px 0px;
+  padding: 20px 0px 10px 0px;
 }
 
 .headline {
@@ -75,6 +72,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   border: 1px solid #a488b3;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .signup:hover {
@@ -162,14 +160,45 @@ h2.features-title {
 .cta {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
+.cta-text {
+  line-height: 1.5;
+  border: 2px solid #faf0ff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #faf0ff;
+  color: #a488b3;
+  margin-left: 150px;
+}
+
+.cta-signup-button {
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  height: 35px;
+  margin-top: 20px;
+  background-color: #faf0ff;
+  color: #a488b3;
+  font-weight: 700;
+  margin-right: 150px;
+  font-size: 17px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cta-signup-button:hover {
+  background-color: #a488b3;
+  color: #f5e1ff;
+  border: 2px solid #f5e1ff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 55px;
+  height: 75px;
   text-align: center;
   background-color: #faf0ff;
+  line-height: 2;
 }
